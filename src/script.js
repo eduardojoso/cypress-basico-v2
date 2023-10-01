@@ -59,7 +59,7 @@ function showAndHideErrorMessage() {
   const errorMessage = document.querySelector('.error')
   errorMessage.style.display = 'block'
   scroll(0,0)
-  hideMessageAfterTimeout(errorMessage)
+  hideMessagAfterTimeout(errorMessage)
   return
 }
 
